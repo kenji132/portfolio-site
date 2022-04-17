@@ -8,6 +8,7 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1'></meta>
         <title>Kenji Nishimoto - Homepage</title>
+        <link rel="icon" type="image/png" href="/wolf.png" />
       </Head>
       <Navbar path="/"/>
 
