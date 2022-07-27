@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbHeycollege from '../public/Heycollege2.png'
 import Layout from '../components/layouts/article'
+import thumbPortfolio from '../public/portfolio-thumb.png'
 
 const Works = () => {
   return (
@@ -23,38 +24,11 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem
-              id="heycollege"
-              title="Heycollege"
-              thumbnail={thumbHeycollege}
+              id="portfolio"
+              title="Portfolio"
+              thumbnail={thumbPortfolio}
             >
-              College classes information web app
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="heycollege"
-              title="Heycollege"
-              thumbnail={thumbHeycollege}
-            >
-              College classes information web app
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="heycollege"
-              title="Heycollege"
-              thumbnail={thumbHeycollege}
-            >
-              College classes information web app
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem
-              id="heycollege"
-              title="Heycollege"
-              thumbnail={thumbHeycollege}
-            >
-              College classes information web app
+              My portfolio web site
             </WorkGridItem>
           </Section>
         </SimpleGrid>

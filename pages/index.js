@@ -53,12 +53,11 @@ const Page = () => {
             Works
           </Heading>
           <Paragraph>
-            I am a college student in Osaka Metropolitan University in Japan. And I major in Electrical and Electronic Systems.My hobby is Fisshing
-            I am a college student in Osaka Metropolitan University in Japan. And I major in Electrical and Electronic Systems.My hobby is Fisshing
-            I am a college student in Osaka Metropolitan University in Japan. And I major in Electrical and Electronic Systems.My hobby is Fisshing {'  '}
-            <NextLink href="/works/test">
+            ソフトウェアエンジニア志望の大阪府立大学工学域４年生です。
+            rails/python/Next.jsを用いたアプリケーションの開発が好きです。現在はプログラミングスクールにてメンター業務をインターン生として行ないながら、大学院試験に向けての勉強と機械学習の研究へ向けた基礎勉強を行っています。
+            {/* <NextLink href="/works/test">
               <Link>Test</Link>
-            </NextLink>.
+            </NextLink>. */}
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -74,11 +73,19 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
-            Born in Kyoto, Japan.
+            京都出身
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Enrolled in Osaka Metropolitan University, and study Communication engineering.
+            大阪府立大工学域電気電子系学類に入学
+          </BioSection>
+          <BioSection>
+            <BioYear>2020</BioYear>
+            DMM webcampのメンターを始める
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            大阪府立大学工学域知的情報通信研究グループに所属
           </BioSection>
         </Section>
         <Section>
@@ -86,7 +93,7 @@ const Page = () => {
             Hobby
           </Heading>
           <Paragraph>
-            Music, Anime, Baseball (MLB,NPB), Fisshing
+            Music, Anime, Baseball (MLB,NPB)
           </Paragraph>
         </Section>
         <Section delay={0.3}>

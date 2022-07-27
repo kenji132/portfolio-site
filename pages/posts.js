@@ -2,8 +2,8 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {GridItem} from '../components/grid-item'
-import thumbWolf from '../public/wolf.png'
 import thumbQiita1 from '../public/Qiita1.png'
+
 
 
 const Posts = () => {
@@ -15,10 +15,6 @@ const Posts = () => {
         </Heading>
         <Section delay={0.1}>
           <SimpleGrid columns={[1,2,2]} gap={6}>
-            <GridItem 
-              title="My Fisrt Post"
-              thumbnail={thumbWolf}
-            />
             <GridItem 
               title="Rails Serverについて"
               thumbnail={thumbQiita1}
