@@ -28,7 +28,7 @@ const Works = () => {
               title="Portfolio"
               thumbnail={thumbPortfolio}
             >
-              My portfolio web site
+              College classes information web app
             </WorkGridItem>
           </Section>
         </SimpleGrid>
