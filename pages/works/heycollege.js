@@ -12,7 +12,7 @@ const Work = () => {
           Hey College <Badge>2021</Badge>
         </Title>
         <P>
-        It is an application that allows you to post and browse review information of university lectures.
+        大学の講義情報を投稿・閲覧できるアプリケーションです。
         </P>
         <List ml={4} my={4}>
           <ListItem>
