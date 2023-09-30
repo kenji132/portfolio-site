@@ -50,15 +50,12 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Works
+            Profile
           </Heading>
           <Paragraph>
             ソフトウェアエンジニア志望の大阪公立大学院工学研究科修士一年です。
             研究では、連合学習（Federated Learning）におけるモデルポイズニング攻撃について研究しています。
             また、Ruby on Rails / Python / Typescript / React / Goを用いたアプリケーションの開発が好きです。
-            {/* <NextLink href="/works/test">
-              <Link>Test</Link>
-            </NextLink>. */}
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
