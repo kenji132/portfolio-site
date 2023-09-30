@@ -2,7 +2,7 @@ import NextLink from 'next/link'
 import {Container, Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import {ChevronRightIcon} from '@chakra-ui/icons'
+import {ChevronRightIcon, ExternalLinkIcon} from '@chakra-ui/icons'
 import {BioSection, BioYear} from '../components/bio'
 import Layout from '../components/layouts/article'
 import { GridItem } from '../components/grid-item'
@@ -50,19 +50,17 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Works
+            Profile
           </Heading>
           <Paragraph>
-            ソフトウェアエンジニア志望の大阪府立大学工学域４年生です。
-            rails/python/Next.jsを用いたアプリケーションの開発が好きです。現在はプログラミングスクールにてメンター業務をインターン生として行ないながら、大学院試験に向けての勉強と機械学習の研究へ向けた基礎勉強を行っています。
-            {/* <NextLink href="/works/test">
-              <Link>Test</Link>
-            </NextLink>. */}
+            ソフトウェアエンジニア志望の大阪公立大学院工学研究科修士一年です。
+            研究では、連合学習（Federated Learning）におけるモデルポイズニング攻撃について研究しています。
+            また、Ruby on Rails / Python / Typescript / React / Goを用いたアプリケーションの開発が好きです。
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                My Portfolio
+                My Works
               </Button>
             </NextLink>
           </Box>
@@ -86,6 +84,18 @@ const Page = () => {
           <BioSection>
             <BioYear>2022</BioYear>
             大阪府立大学工学域知的情報通信研究グループに所属
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            大阪公立大学院工学研究科に進学
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            6月に論文「FedATM: Adaptive Trimmed Mean based Federated Learning against Model Poisoning Attacks」を国際学会発表
+          </BioSection>
+          <BioSection>
+            <BioYear></BioYear>
+            
           </BioSection>
         </Section>
         <Section>
