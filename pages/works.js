@@ -1,6 +1,7 @@
 import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
+import thumbFedATM from '../public/FedATM3.png'
 import thumbHeycollege from '../public/Heycollege2.png'
 import Layout from '../components/layouts/article'
 import thumbPortfolio from '../public/portfolio-thumb.png'
@@ -13,6 +14,15 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1,1,2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="FedATM"
+              title="FedATM"
+              thumbnail={thumbFedATM}
+            >
+              Research on Federated Learning 
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="heycollege"
